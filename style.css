@@ -49,6 +49,12 @@ body {
     border-radius: 5px;
 }
 
+.nav__link.active {
+    background-color: #c0c0c0;
+    color: black;
+    border-radius: 5px;
+}
+
 
 .container {
     display: flex;
