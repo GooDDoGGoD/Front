@@ -1,0 +1,42 @@
+.zakaz__todo-form {
+    margin: 6vh 0;
+}
+
+.zakaz__todo-input {
+    border: none;
+    outline: none;
+    border-radius: 1.5vh;
+    padding: 1.5vh;
+    margin-right: 2vh;
+    font-size: 2.8vh;
+}
+
+.zakaz__add-button {
+    background-color: #8b5a2b;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 1.5vh;
+    padding: 1.5vh;
+    font-size: 2.8vh;
+}
+
+.zakaz__todo-items {
+    min-width: 100%;
+}
+
+.item {
+    background-color: #fff;
+    padding: 1.5vh;
+    font-size: 2.8vh;
+}
+
+.item:first-child {
+    border-top-left-radius: 1.5vh;
+    border-top-right-radius: 1.5vh;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 1.5vh;
+    border-bottom-right-radius: 1.5vh;
+}

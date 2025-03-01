@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/zakaz.css">
+  <script src="../js/load_page.js"></script>
+  <script defer src="../js/script.js"></script>
+  <script type="module" src="../js/table.js"></script>
+  <title>Магазин 3D-миниатюр - Заказы</title>
+</head>
+<body>
+<header class="header">
+  <h1 class="header__title">Лавка Сани</h1>
+  <script defer src="../js/script.js"></script>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li><a href="../index.html" class="nav__link">Главная</a></li>
+      <li><a href="about.html" class="nav__link">О нас</a></li>
+      <li><a href="products.html" class="nav__link">Каталог</a></li>
+      <li><a href="contact.html" class="nav__link">Контакты</a></li>
+      <li><a href="zakaz.html" class="nav__link">Заказы</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div class="container">
+  <main class="main">
+    <h1>Сформируйте заказ</h1>
+
+    <form class="zakaz__todo-form">
+      <input class="zakaz__todo-input" type="text" placeholder="Добавить в корзину...">
+      <button class="zakaz__add-button" type="submit">+</button>
+    </form>
+
+    <ul class="zakaz__todo-items"></ul>
+  </main>
+</div>
+
+<footer class="footer">
+  <p class="footer__text">&copy; 2024 Лавка Сани. Все права защищены.</p>
+  <p id="load_time"></p>
+</footer>
+
+
+</body>
+</html>
