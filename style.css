@@ -1,0 +1,141 @@
+body {
+    background-color: #f5f1e3;
+    color: #2b2b2b;
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.header__title {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #6d4027;
+    padding: 10px 0;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    background-color: #c0c0c0;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.main {
+    flex: 3;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section__title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section__text {
+}
+
+
+.product {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.product__card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #8b5a2b;
+    background-color: #e8dac3;
+}
+
+.product__title {
+    color: #c0392b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product__text {
+    font-size: 14px;
+}
+
+.product__img {
+    object-fit: cover ;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
+
+
+
+.sidebar {
+    background-color: #c0c0c0;
+    margin-left: 20px;
+    color: black;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.sidebar__title {
+    font-style: italic;
+    color: #2c3e50;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b5a2b;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+
+
+
